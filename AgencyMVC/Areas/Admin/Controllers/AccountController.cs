@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AgencyMVC.Controllers
 {
+    [Area("Admin")]
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> usermeneger;
